@@ -1,0 +1,924 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.3.1"/>
+<title>TCWeiboSDK: WeiboApi类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">TCWeiboSDK
+   &#160;<span id="projectnumber">LightVersion</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.3.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interface_weibo_api.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>属性</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Instance Methods</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="#properties">属性</a> &#124;
+<a href="class_weibo_api-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">WeiboApi类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>定义了腾讯微博授权，api请求接口  
+ <a href="interface_weibo_api.html#details">更多...</a></p>
+<div class="dynheader">
+类 WeiboApi 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="interface_weibo_api.png" usemap="#WeiboApi_map" alt=""/>
+  <map id="WeiboApi_map" name="WeiboApi_map">
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Instance Methods</h2></td></tr>
+<tr class="memitem:ac0c5f05d24575780b479ef307b629366"><td class="memItemLeft" align="right" valign="top">(id)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_weibo_api.html#ac0c5f05d24575780b479ef307b629366">initWithAppKey:andSecret:andRedirectUri:</a></td></tr>
+<tr class="memdesc:ac0c5f05d24575780b479ef307b629366"><td class="mdescLeft">&#160;</td><td class="mdescRight">初始化WeiboApi对象  <a href="#ac0c5f05d24575780b479ef307b629366">更多...</a><br/></td></tr>
+<tr class="separator:ac0c5f05d24575780b479ef307b629366"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c472ac2761e4c73817320ba9b549100"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_weibo_api.html#a7c472ac2761e4c73817320ba9b549100">loginWithDelegate:andRootController:</a></td></tr>
+<tr class="memdesc:a7c472ac2761e4c73817320ba9b549100"><td class="mdescLeft">&#160;</td><td class="mdescRight">使用SSO或者Webview开始授权，优先选择SSO  <a href="#a7c472ac2761e4c73817320ba9b549100">更多...</a><br/></td></tr>
+<tr class="separator:a7c472ac2761e4c73817320ba9b549100"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af845db54ccb6f1d9bcd22f8df2292591"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_weibo_api.html#af845db54ccb6f1d9bcd22f8df2292591">loginWithAccesstoken:andOpenId:andExpires:andRefreshToken:andDelegate:</a></td></tr>
+<tr class="memdesc:af845db54ccb6f1d9bcd22f8df2292591"><td class="mdescLeft">&#160;</td><td class="mdescRight">使用已有授权信息授权进行初始化，比如第三方后台已经有用户授权，可以使用这种方式进行授权。ps 用户的新授权会覆盖老授权，导致老授权失效。  <a href="#af845db54ccb6f1d9bcd22f8df2292591">更多...</a><br/></td></tr>
+<tr class="separator:af845db54ccb6f1d9bcd22f8df2292591"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3731127b1ef57410fec359c1c9cdefc8"><td class="memItemLeft" align="right" valign="top">(int)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_weibo_api.html#a3731127b1ef57410fec359c1c9cdefc8">refreshAuthWithDelegate:</a></td></tr>
+<tr class="memdesc:a3731127b1ef57410fec359c1c9cdefc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">使用WeiBoApi对象里面的授权信息，重刷accesstoken，原accesstoken 将失效  <a href="#a3731127b1ef57410fec359c1c9cdefc8">更多...</a><br/></td></tr>
+<tr class="separator:a3731127b1ef57410fec359c1c9cdefc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a359c074042c7f0c644f38b6e34a9eb73"><td class="memItemLeft" align="right" valign="top">(int)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_weibo_api.html#a359c074042c7f0c644f38b6e34a9eb73">refreshAuthWithAppKey:andRefreshToken:andDelegate:</a></td></tr>
+<tr class="memdesc:a359c074042c7f0c644f38b6e34a9eb73"><td class="mdescLeft">&#160;</td><td class="mdescRight">重刷accesstoken, 原accesstoken将失效  <a href="#a359c074042c7f0c644f38b6e34a9eb73">更多...</a><br/></td></tr>
+<tr class="separator:a359c074042c7f0c644f38b6e34a9eb73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a990a14ba53bb85109f04a36daa723f2c"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_weibo_api.html#a990a14ba53bb85109f04a36daa723f2c">cancelAuth</a></td></tr>
+<tr class="memdesc:a990a14ba53bb85109f04a36daa723f2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">登出，清除授权的缓存信息  <a href="#a990a14ba53bb85109f04a36daa723f2c">更多...</a><br/></td></tr>
+<tr class="separator:a990a14ba53bb85109f04a36daa723f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa187a265d989db70853fac7b9d700c51"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_weibo_api.html#aa187a265d989db70853fac7b9d700c51">isAuthed</a></td></tr>
+<tr class="memdesc:aa187a265d989db70853fac7b9d700c51"><td class="mdescLeft">&#160;</td><td class="mdescRight">判断是否已经授权  <a href="#aa187a265d989db70853fac7b9d700c51">更多...</a><br/></td></tr>
+<tr class="separator:aa187a265d989db70853fac7b9d700c51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55ea2febd621724acaa3a3faae21f328"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_weibo_api.html#a55ea2febd621724acaa3a3faae21f328">isAuthorizeExpired</a></td></tr>
+<tr class="memdesc:a55ea2febd621724acaa3a3faae21f328"><td class="mdescLeft">&#160;</td><td class="mdescRight">判断授权是否已经到期  <a href="#a55ea2febd621724acaa3a3faae21f328">更多...</a><br/></td></tr>
+<tr class="separator:a55ea2febd621724acaa3a3faae21f328"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4a1235e70b0c8b966af731e741e587b"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_weibo_api.html#ae4a1235e70b0c8b966af731e741e587b">isAuthValid</a></td></tr>
+<tr class="memdesc:ae4a1235e70b0c8b966af731e741e587b"><td class="mdescLeft">&#160;</td><td class="mdescRight">判断授权是否有效，包括是否已授权，授权是否已过期  <a href="#ae4a1235e70b0c8b966af731e741e587b">更多...</a><br/></td></tr>
+<tr class="separator:ae4a1235e70b0c8b966af731e741e587b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77a481235be295ee6230f1821731c4aa"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_weibo_api.html#a77a481235be295ee6230f1821731c4aa">handleOpenURL:</a></td></tr>
+<tr class="memdesc:a77a481235be295ee6230f1821731c4aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">处理微博客户端唤回后的回调数据  <a href="#a77a481235be295ee6230f1821731c4aa">更多...</a><br/></td></tr>
+<tr class="separator:a77a481235be295ee6230f1821731c4aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ab74c7c65125cf314263e7a7ef4a9c2"><td class="memItemLeft" align="right" valign="top">(int)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_weibo_api.html#a5ab74c7c65125cf314263e7a7ef4a9c2">requestWithParams:apiName:httpMethod:delegate:</a></td></tr>
+<tr class="memdesc:a5ab74c7c65125cf314263e7a7ef4a9c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">发送api请求, 腾讯微博OPenApi请求都可以通过这个接口进行访问，如何调用请参考官网文档  <a href="#a5ab74c7c65125cf314263e7a7ef4a9c2">更多...</a><br/></td></tr>
+<tr class="separator:a5ab74c7c65125cf314263e7a7ef4a9c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:a5b655ab748c7ce0d9098a12e9c54b922"><td class="memItemLeft" align="right" valign="top">NSMutableDictionary *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_weibo_api.html#a5b655ab748c7ce0d9098a12e9c54b922">reqDic</a></td></tr>
+<tr class="memdesc:a5b655ab748c7ce0d9098a12e9c54b922"><td class="mdescLeft">&#160;</td><td class="mdescRight">请求集合，用于管理异步请求  <a href="#a5b655ab748c7ce0d9098a12e9c54b922">更多...</a><br/></td></tr>
+<tr class="separator:a5b655ab748c7ce0d9098a12e9c54b922"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4ec5db1f988be62f3e26bdf8ca7a842"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_weibo_api.html#ae4ec5db1f988be62f3e26bdf8ca7a842">isSSOAuth</a></td></tr>
+<tr class="memdesc:ae4ec5db1f988be62f3e26bdf8ca7a842"><td class="mdescLeft">&#160;</td><td class="mdescRight">标识是否为SSO授权，SSO授权时，不具有重刷机制  <a href="#ae4ec5db1f988be62f3e26bdf8ca7a842">更多...</a><br/></td></tr>
+<tr class="separator:ae4ec5db1f988be62f3e26bdf8ca7a842"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51249db047aabf3deae0f6d947252540"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_weibo_api.html#a51249db047aabf3deae0f6d947252540">reqCount</a></td></tr>
+<tr class="memdesc:a51249db047aabf3deae0f6d947252540"><td class="mdescLeft">&#160;</td><td class="mdescRight">请求数，递增，用于标记请求  <a href="#a51249db047aabf3deae0f6d947252540">更多...</a><br/></td></tr>
+<tr class="separator:a51249db047aabf3deae0f6d947252540"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+属性</h2></td></tr>
+<tr class="memitem:aaf6f18025e5763e9ee53620c9375556b"><td class="memItemLeft" align="right" valign="top">NSString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_weibo_api.html#aaf6f18025e5763e9ee53620c9375556b">appKey</a></td></tr>
+<tr class="memdesc:aaf6f18025e5763e9ee53620c9375556b"><td class="mdescLeft">&#160;</td><td class="mdescRight">申请应用时分配给第三方应用程序的App key  <a href="#aaf6f18025e5763e9ee53620c9375556b">更多...</a><br/></td></tr>
+<tr class="separator:aaf6f18025e5763e9ee53620c9375556b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9095cb0d30341c3829ba7b95c9cb9a27"><td class="memItemLeft" align="right" valign="top">NSString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_weibo_api.html#a9095cb0d30341c3829ba7b95c9cb9a27">appSecret</a></td></tr>
+<tr class="memdesc:a9095cb0d30341c3829ba7b95c9cb9a27"><td class="mdescLeft">&#160;</td><td class="mdescRight">申请应用时分配给第三方应用程序的App Secret  <a href="#a9095cb0d30341c3829ba7b95c9cb9a27">更多...</a><br/></td></tr>
+<tr class="separator:a9095cb0d30341c3829ba7b95c9cb9a27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd1c4ddf387261ac3ecbe5f63b8dd797"><td class="memItemLeft" align="right" valign="top">NSString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_weibo_api.html#abd1c4ddf387261ac3ecbe5f63b8dd797">redirectUri</a></td></tr>
+<tr class="memdesc:abd1c4ddf387261ac3ecbe5f63b8dd797"><td class="mdescLeft">&#160;</td><td class="mdescRight">申请应用时开发者填写的应用url，可以用于返回授权信息  <a href="#abd1c4ddf387261ac3ecbe5f63b8dd797">更多...</a><br/></td></tr>
+<tr class="separator:abd1c4ddf387261ac3ecbe5f63b8dd797"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e4b7f68b3a05ad4ce47ac5d7ec3a0d7"><td class="memItemLeft" align="right" valign="top">NSString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_weibo_api.html#a2e4b7f68b3a05ad4ce47ac5d7ec3a0d7">userName</a></td></tr>
+<tr class="memdesc:a2e4b7f68b3a05ad4ce47ac5d7ec3a0d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">用户微博帐号  <a href="#a2e4b7f68b3a05ad4ce47ac5d7ec3a0d7">更多...</a><br/></td></tr>
+<tr class="separator:a2e4b7f68b3a05ad4ce47ac5d7ec3a0d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad196f50304f0b9a22b120fdc40091b44"><td class="memItemLeft" align="right" valign="top">NSString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_weibo_api.html#ad196f50304f0b9a22b120fdc40091b44">userNick</a></td></tr>
+<tr class="memdesc:ad196f50304f0b9a22b120fdc40091b44"><td class="mdescLeft">&#160;</td><td class="mdescRight">用户微博昵称  <a href="#ad196f50304f0b9a22b120fdc40091b44">更多...</a><br/></td></tr>
+<tr class="separator:ad196f50304f0b9a22b120fdc40091b44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3d710adda2bf1ee685c83ce450ca735"><td class="memItemLeft" align="right" valign="top">NSString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_weibo_api.html#ae3d710adda2bf1ee685c83ce450ca735">openid</a></td></tr>
+<tr class="memdesc:ae3d710adda2bf1ee685c83ce450ca735"><td class="mdescLeft">&#160;</td><td class="mdescRight">openid 唯一标识一个微博用户  <a href="#ae3d710adda2bf1ee685c83ce450ca735">更多...</a><br/></td></tr>
+<tr class="separator:ae3d710adda2bf1ee685c83ce450ca735"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55168ef2f4c21075636486241d8bd47c"><td class="memItemLeft" align="right" valign="top">NSString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_weibo_api.html#a55168ef2f4c21075636486241d8bd47c">accessToken</a></td></tr>
+<tr class="memdesc:a55168ef2f4c21075636486241d8bd47c"><td class="mdescLeft">&#160;</td><td class="mdescRight">用户票据accessToken  <a href="#a55168ef2f4c21075636486241d8bd47c">更多...</a><br/></td></tr>
+<tr class="separator:a55168ef2f4c21075636486241d8bd47c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe5c67d7ee456027e33ef198c9a26391"><td class="memItemLeft" align="right" valign="top">NSString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_weibo_api.html#abe5c67d7ee456027e33ef198c9a26391">refreshToken</a></td></tr>
+<tr class="memdesc:abe5c67d7ee456027e33ef198c9a26391"><td class="mdescLeft">&#160;</td><td class="mdescRight">accessToken过期时，可以用refreshtoken 重刷token  <a href="#abe5c67d7ee456027e33ef198c9a26391">更多...</a><br/></td></tr>
+<tr class="separator:abe5c67d7ee456027e33ef198c9a26391"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57b639747238cc9b1ad8aa63d2cc3c43"><td class="memItemLeft" align="right" valign="top">NSTimeInterval&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_weibo_api.html#a57b639747238cc9b1ad8aa63d2cc3c43">expires</a></td></tr>
+<tr class="memdesc:a57b639747238cc9b1ad8aa63d2cc3c43"><td class="mdescLeft">&#160;</td><td class="mdescRight">过期时间戳，从1970的秒数  <a href="#a57b639747238cc9b1ad8aa63d2cc3c43">更多...</a><br/></td></tr>
+<tr class="separator:a57b639747238cc9b1ad8aa63d2cc3c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4f2c2bcb6fccf964503d9cde6ee24d5"><td class="memItemLeft" align="right" valign="top">id&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_weibo_api.html#ab4f2c2bcb6fccf964503d9cde6ee24d5">authDelegate</a></td></tr>
+<tr class="memdesc:ab4f2c2bcb6fccf964503d9cde6ee24d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">授权delegate  <a href="#ab4f2c2bcb6fccf964503d9cde6ee24d5">更多...</a><br/></td></tr>
+<tr class="separator:ab4f2c2bcb6fccf964503d9cde6ee24d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae07b23502eb539f48d352a41435306ea"><td class="memItemLeft" align="right" valign="top">UIViewController *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_weibo_api.html#ae07b23502eb539f48d352a41435306ea">rootViewCtrl</a></td></tr>
+<tr class="memdesc:ae07b23502eb539f48d352a41435306ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">授权窗口的父窗口  <a href="#ae07b23502eb539f48d352a41435306ea">更多...</a><br/></td></tr>
+<tr class="separator:ae07b23502eb539f48d352a41435306ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>定义了腾讯微博授权，api请求接口 </p>
+<dl class="section note"><dt>注解</dt><dd>典型调用顺序 1. 初始化 ——&gt; 通过webview或者SSO授权WeiboApi对象 ——&gt;请求接口 </dd>
+<dd>
+典型调用顺序 2. 初始化 ——&gt; 使用已有授权初始化WeiboApi对象 ——&gt;请求接口 </dd>
+<dd>
+授权优先级：SSO可用时，优先使用SSO进行授权 </dd>
+<dd>
+重刷授权： 当使用SSO授权时，不提供重刷授权机制 </dd></dl>
+</div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="a990a14ba53bb85109f04a36daa723f2c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) cancelAuth </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>登出，清除授权的缓存信息 </p>
+<dl class="section return"><dt>返回</dt><dd>无返回 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a77a481235be295ee6230f1821731c4aa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) handleOpenURL: </td>
+          <td></td>
+          <td class="paramtype">(NSURL *)&#160;</td>
+          <td class="paramname"><em>url</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>处理微博客户端唤回后的回调数据 </p>
+<dl class="section note"><dt>注解</dt><dd>处理微博客户端通过URL启动App时传递的数据,需要在 application:openURL:sourceApplication:annotation:或者application:handleOpenURL中调用。 </dd>
+<dd>
+需同时在 URL Types 里面添加urlscheme wbxxxx,其中xxxx为注册应用时获得的appkey，如wb801213517 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">INPUT</td><td>url 启动App的URL </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>YES 成功返回 </dd>
+<dd>
+NO 失败返回 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ac0c5f05d24575780b479ef307b629366"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (id) initWithAppKey: </td>
+          <td></td>
+          <td class="paramtype">(NSString *)&#160;</td>
+          <td class="paramname"><em>theAppkey</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">andSecret:</td>
+          <td></td>
+          <td class="paramtype">(NSString *)&#160;</td>
+          <td class="paramname"><em>theSecret</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">andRedirectUri:</td>
+          <td></td>
+          <td class="paramtype">(NSString *)&#160;</td>
+          <td class="paramname"><em>theRedirecturi</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>初始化WeiboApi对象 </p>
+<dl class="section note"><dt>注解</dt><dd>alloc weiboApi 对象后，授权之前，必须现进行初始化，否则将会出错 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">INPUT</td><td>theAppkey 申请应用时分配给第三方应用程序的App key, </td></tr>
+    <tr><td class="paramname">INPUT</td><td>theSecret 申请应用时分配给第三方应用程序的App secrect, </td></tr>
+    <tr><td class="paramname">INPUT</td><td>theRedirectUri 回调url </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>id 生成的WeiboApi对象实例 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa187a265d989db70853fac7b9d700c51"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) isAuthed </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>判断是否已经授权 </p>
+<dl class="section return"><dt>返回</dt><dd>YES 已经授权 </dd>
+<dd>
+NO 尚未授权 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a55ea2febd621724acaa3a3faae21f328"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) isAuthorizeExpired </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>判断授权是否已经到期 </p>
+<dl class="section return"><dt>返回</dt><dd>YES 已经过期 </dd>
+<dd>
+NO 尚未过期 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ae4a1235e70b0c8b966af731e741e587b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) isAuthValid </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>判断授权是否有效，包括是否已授权，授权是否已过期 </p>
+<dl class="section return"><dt>返回</dt><dd>YES 有授权，且在有效期内 </dd>
+<dd>
+NO 无授权，或者授权已失效 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="af845db54ccb6f1d9bcd22f8df2292591"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) loginWithAccesstoken: </td>
+          <td></td>
+          <td class="paramtype">(NSString *)&#160;</td>
+          <td class="paramname"><em>theAccessToken</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">andOpenId:</td>
+          <td></td>
+          <td class="paramtype">(NSString *)&#160;</td>
+          <td class="paramname"><em>theOpenid</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">andExpires:</td>
+          <td></td>
+          <td class="paramtype">(NSTimeInterval)&#160;</td>
+          <td class="paramname"><em>theExpires</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">andRefreshToken:</td>
+          <td></td>
+          <td class="paramtype">(NSString *)&#160;</td>
+          <td class="paramname"><em>theRefreshToken</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">andDelegate:</td>
+          <td></td>
+          <td class="paramtype">(id)&#160;</td>
+          <td class="paramname"><em>theDelegate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>使用已有授权信息授权进行初始化，比如第三方后台已经有用户授权，可以使用这种方式进行授权。ps 用户的新授权会覆盖老授权，导致老授权失效。 </p>
+<dl class="section note"><dt>注解</dt><dd>需实现WeiboAuthDelegate 中的DidAuthFinished 和 DidAuthCanceled DidAuthFailWithError </dd>
+<dd>
+需要在 application:openURL:sourceApplication:annotation:或者application:handleOpenURL中调用。</dd></dl>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="interface_weibo_api.html#a77a481235be295ee6230f1821731c4aa" title="处理微博客户端唤回后的回调数据">- handleOpenURL:</a> </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">INPUT</td><td>theAccessToken 访问api资源的凭证 </td></tr>
+    <tr><td class="paramname">INPUT</td><td>theExpiredTime accesstoken过期时间 </td></tr>
+    <tr><td class="paramname">INPUT</td><td>theOpenid 用户统一标识，可以唯一标识一个用户 </td></tr>
+    <tr><td class="paramname">INPUT</td><td>theRefreshToken 刷新token </td></tr>
+    <tr><td class="paramname">INPUT</td><td>theDelegate 回调方法接收对象 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>无返回 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a7c472ac2761e4c73817320ba9b549100"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) loginWithDelegate: </td>
+          <td></td>
+          <td class="paramtype">(id)&#160;</td>
+          <td class="paramname"><em>theDelegate</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">andRootController:</td>
+          <td></td>
+          <td class="paramtype">(UIViewController *)&#160;</td>
+          <td class="paramname"><em>rootCtrl</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>使用SSO或者Webview开始授权，优先选择SSO </p>
+<dl class="section note"><dt>注解</dt><dd>需实现WeiboAuthDelegate 中的DidAuthFinished 和 DidAuthCanceled DidAuthFailWithError </dd>
+<dd>
+需要在 application:openURL:sourceApplication:annotation:或者application:handleOpenURL中调用。</dd></dl>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="interface_weibo_api.html#a77a481235be295ee6230f1821731c4aa" title="处理微博客户端唤回后的回调数据">- handleOpenURL:</a> </dd></dl>
+<dl class="section note"><dt>注解</dt><dd>必须再主线程调用，且提供窗口controller，否则会导致调用失败 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">INPUT</td><td>delegate 回调方法接收对象 </td></tr>
+    <tr><td class="paramname">INPUT</td><td>rootCtrl 授权窗口的父窗口 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>无返回 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a359c074042c7f0c644f38b6e34a9eb73"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (int) refreshAuthWithAppKey: </td>
+          <td></td>
+          <td class="paramtype">(NSString *)&#160;</td>
+          <td class="paramname"><em>theAppKey</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">andRefreshToken:</td>
+          <td></td>
+          <td class="paramtype">(NSString *)&#160;</td>
+          <td class="paramname"><em>theRefreshToken</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">andDelegate:</td>
+          <td></td>
+          <td class="paramtype">(id)&#160;</td>
+          <td class="paramname"><em>theDelegate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>重刷accesstoken, 原accesstoken将失效 </p>
+<dl class="section note"><dt>注解</dt><dd>使用参数中的refreshtoken，appkey </dd>
+<dd>
+须实现WeiboAuthDelegate 中的DidAuthRefreshed 和 DidAuthRefreshFailed </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">INPUT</td><td>theAppKey 访问api资源的凭证 </td></tr>
+    <tr><td class="paramname">INPUT</td><td>theRefreshToken accesstoken过期时间 </td></tr>
+    <tr><td class="paramname">INPUT</td><td>theDelegate 回调方法接收对象 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>返回请求序号，－1时为失败 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a3731127b1ef57410fec359c1c9cdefc8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (int) refreshAuthWithDelegate: </td>
+          <td></td>
+          <td class="paramtype">(id)&#160;</td>
+          <td class="paramname"><em>theDelegate</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>使用WeiBoApi对象里面的授权信息，重刷accesstoken，原accesstoken 将失效 </p>
+<dl class="section note"><dt>注解</dt><dd>WeiboApi对象里面必须已经有授权信息，refreshtoken，appkey，否则会出错 </dd>
+<dd>
+须实现WeiboAuthDelegate 中的DidAuthRefreshed 和 DidAuthRefreshFailed </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">INPUT</td><td>theDelegate 回调方法接收对象 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>返回请求序号，－1时为失败 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a5ab74c7c65125cf314263e7a7ef4a9c2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (int) requestWithParams: </td>
+          <td></td>
+          <td class="paramtype">(NSMutableDictionary *)&#160;</td>
+          <td class="paramname"><em>params</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">apiName:</td>
+          <td></td>
+          <td class="paramtype">(NSString *)&#160;</td>
+          <td class="paramname"><em>apiName</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">httpMethod:</td>
+          <td></td>
+          <td class="paramtype">(NSString *)&#160;</td>
+          <td class="paramname"><em>httpMethod</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">delegate:</td>
+          <td></td>
+          <td class="paramtype">(id)&#160;</td>
+          <td class="paramname"><em>delegate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>发送api请求, 腾讯微博OPenApi请求都可以通过这个接口进行访问，如何调用请参考官网文档 </p>
+<dl class="section note"><dt>注解</dt><dd>授权应用信息使用当前weiboapi对象中的数据 </dd>
+<dd>
+需实现WeiboRequestDelegate 中的didReceiveRawData 和 didFailWithError </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">INPUT</td><td>params 请求参数对， key 为NSString类型的参数名， value 一般情况下为NSString 类型对象。发表图片时，value必须为NSData，或者UIImage对象。 </td></tr>
+    <tr><td class="paramname">INPUT</td><td>apiName api名称，例如收听某人的url是https://open.t.qq.com/api/friends/add， 它的apiname就是 friends/add </td></tr>
+    <tr><td class="paramname">INPUT</td><td>httpMethod GET or POST </td></tr>
+    <tr><td class="paramname">INPUT</td><td>delegate 回调delegate 应实现WeiboRequestDelegate </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>返回请求序号,序号为递增 </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="ae4ec5db1f988be62f3e26bdf8ca7a842"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) isSSOAuth</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>标识是否为SSO授权，SSO授权时，不具有重刷机制 </p>
+
+</div>
+</div>
+<a class="anchor" id="a51249db047aabf3deae0f6d947252540"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (int) reqCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>请求数，递增，用于标记请求 </p>
+
+</div>
+</div>
+<a class="anchor" id="a5b655ab748c7ce0d9098a12e9c54b922"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSMutableDictionary*) reqDic</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>请求集合，用于管理异步请求 </p>
+
+</div>
+</div>
+<h2 class="groupheader">属性说明</h2>
+<a class="anchor" id="a55168ef2f4c21075636486241d8bd47c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSString *) accessToken</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">copy</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>用户票据accessToken </p>
+
+</div>
+</div>
+<a class="anchor" id="aaf6f18025e5763e9ee53620c9375556b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSString *) appKey</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">copy</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>申请应用时分配给第三方应用程序的App key </p>
+
+</div>
+</div>
+<a class="anchor" id="a9095cb0d30341c3829ba7b95c9cb9a27"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSString *) appSecret</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">copy</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>申请应用时分配给第三方应用程序的App Secret </p>
+
+</div>
+</div>
+<a class="anchor" id="ab4f2c2bcb6fccf964503d9cde6ee24d5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (id) authDelegate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>授权delegate </p>
+
+</div>
+</div>
+<a class="anchor" id="a57b639747238cc9b1ad8aa63d2cc3c43"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSTimeInterval) expires</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>过期时间戳，从1970的秒数 </p>
+
+</div>
+</div>
+<a class="anchor" id="ae3d710adda2bf1ee685c83ce450ca735"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSString *) openid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">copy</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>openid 唯一标识一个微博用户 </p>
+
+</div>
+</div>
+<a class="anchor" id="abd1c4ddf387261ac3ecbe5f63b8dd797"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSString *) redirectUri</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">copy</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>申请应用时开发者填写的应用url，可以用于返回授权信息 </p>
+
+</div>
+</div>
+<a class="anchor" id="abe5c67d7ee456027e33ef198c9a26391"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSString *) refreshToken</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">copy</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>accessToken过期时，可以用refreshtoken 重刷token </p>
+
+</div>
+</div>
+<a class="anchor" id="ae07b23502eb539f48d352a41435306ea"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (UIViewController *) rootViewCtrl</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>授权窗口的父窗口 </p>
+
+</div>
+</div>
+<a class="anchor" id="a2e4b7f68b3a05ad4ce47ac5d7ec3a0d7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSString *) userName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">copy</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>用户微博帐号 </p>
+
+</div>
+</div>
+<a class="anchor" id="ad196f50304f0b9a22b120fdc40091b44"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSString *) userNick</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">copy</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>用户微博昵称 </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="interface_weibo_api.html">WeiboApi</a></li>
+    <li class="footer">生成于 2013年 五月 14日 星期二 19:13:40 , 为 TCWeiboSDK使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
+  </ul>
+</div>
+</body>
+</html>
