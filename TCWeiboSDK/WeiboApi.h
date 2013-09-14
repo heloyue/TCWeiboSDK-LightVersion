@@ -64,6 +64,7 @@ typedef enum{
  *  @note   典型调用顺序 2. 初始化 ——> 使用已有授权初始化WeiboApi对象 ——>请求接口
  *  @note   授权优先级：SSO可用时，优先使用SSO进行授权
  *  @note   重刷授权： 当使用SSO授权时，不提供重刷授权机制
+ *  @note   应用图标： SSO授权时，SDK从plist文件中读取Icon files 项下的图标传给微博客户端
  */
 @interface WeiboApi : NSObject
 {
@@ -302,6 +303,7 @@ typedef enum{
 /**
  * @brief  处理微博客户端唤回后的回调数据
  * @note   处理微博客户端通过URL启动App时传递的数据,需要在 application:openURL:sourceApplication:annotation:或者application:handleOpenURL中调用。
+ * SSO授权完成，回调到第三方APP时，sourceApplication字段可能是大写，也可能是小写。如果需用此字段来判断回调来源，请注意兼容大小写。
  * @note   需同时在 URL Types 里面添加urlscheme wbxxxx,其中xxxx为注册应用时获得的appkey，如wb801213517
  * @param  INPUT  url     启动App的URL
  * @return YES 成功返回
