@@ -216,7 +216,9 @@ Protected 属性</h2></td></tr>
 <dd>
 授权优先级：SSO可用时，优先使用SSO进行授权 </dd>
 <dd>
-重刷授权： 当使用SSO授权时，不提供重刷授权机制 </dd></dl>
+重刷授权： 当使用SSO授权时，不提供重刷授权机制 </dd>
+<dd>
+应用图标： SSO授权时，SDK从plist文件中读取Icon files 项下的图标传给微博客户端 </dd></dl>
 </div><h2 class="groupheader">Method Documentation</h2>
 <a class="anchor" id="a990a14ba53bb85109f04a36daa723f2c"></a>
 <div class="memitem">
@@ -252,6 +254,8 @@ Protected 属性</h2></td></tr>
 
 <p>处理微博客户端唤回后的回调数据 </p>
 <dl class="section note"><dt>注解</dt><dd>处理微博客户端通过URL启动App时传递的数据,需要在 application:openURL:sourceApplication:annotation:或者application:handleOpenURL中调用。 </dd>
+<dd>
+SSO授权完成，回调到第三方APP时，sourceApplication字段可能是大写，也可能是小写。如果需用此字段来判断回调来源，请注意兼容大小写。</dd>
 <dd>
 需同时在 URL Types 里面添加urlscheme wbxxxx,其中xxxx为注册应用时获得的appkey，如wb801213517 </dd></dl>
 <dl class="params"><dt>参数</dt><dd>
