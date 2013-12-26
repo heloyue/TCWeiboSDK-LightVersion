@@ -1,5 +1,7 @@
 TCWeiboSDK-LightVersion
 
+广告一下，升级版SDK 已经发布，功能更强大，更稳定，地址：https://github.com/heloyue/TCWeiboSDK
+
 轻量级腾讯微博SDK for iOS
 
 Tencent Weibo SDK LightVersion for iOS
